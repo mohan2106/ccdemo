@@ -1,0 +1,17 @@
+.single{
+    background:white;
+    width: 300px;
+    padding: 40px;
+    margin: auto;
+    align-self: center;
+}
+.single_title{
+    margin-top: 10px;
+    color:#6B25D0;
+}
+.single_desc{
+    margin-top: 10px;
+    width: 100%;
+}
+
+  
