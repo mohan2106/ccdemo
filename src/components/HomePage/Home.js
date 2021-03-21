@@ -7,32 +7,32 @@ import WhatWeDo from '../WhatWeDo/WhatWeDo';
 const Home = (props) => {
     const mentor = [
         {
-            img:'Images/iitblogo.svg',
+            img:process.env.PUBLIC_URL + '/Images/iitblogo.svg',
             text:'IIT Bombay'
         },
         {
-            img:'Images/iitglogo.svg',
+            img:process.env.PUBLIC_URL + '/Images/iitglogo.svg',
             text:'IIT Guwahati'
         }
     ];
     const wwd=[
         {
-            img:'Images/puzzle.svg',
+            img:process.env.PUBLIC_URL + '/Images/puzzle.svg',
             title:'Solve Puzzle',
             desc:'Solve puzzle for sdfh sdklf jlsdkf ldfkj '
         },
         {
-            img:'Images/math.svg',
+            img: process.env.PUBLIC_URL + '/Images/math.svg',
             title:'Solve Math',
             desc:'Solve MAth for sdfh sdklf jlsdkf ldfkj dslfk dfjkdf dkfoer euryap eoqd  dfl'
         },
         {
-            img:'Images/puzzle.svg',
+            img: process.env.PUBLIC_URL + '/Images/puzzle.svg',
             title:'Solve Puzzle',
             desc:'Solve puzzle for sdfh sdklf jlsdkf ldfkj '
         },
         {
-            img:'Images/math.svg',
+            img: process.env.PUBLIC_URL + '/Images/math.svg',
             title:'Solve Math',
             desc:'Solve MAth for sdfh sdklf jlsdkf ldfkj dslfk dfjkdf dkfoer euryap eoqd  dfl'
         },

@@ -7,7 +7,7 @@
       'Boost up your academic and competetive performance by enrolling in our course.',
     buttonLabel: 'Learn More',
     imgStart: '',
-    img: 'Images/HomeBanner.svg',
+    img: process.env.PUBLIC_URL + '/Images/HomeBanner.svg',
     alt: 'Home Banner'
   };
   
