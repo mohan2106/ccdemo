@@ -3,6 +3,8 @@ import TextImageComponent from '../TextImageComponent';
 import {homeObjOne} from './Data';
 import Alumni from '../MentorComp/Mentor';
 import WhatWeDo from '../WhatWeDo/WhatWeDo';
+import Pricing from '../PricingPage/Pricing';
+import RoadMap from '../RoadMap/RoadMap';
 
 const Home = (props) => {
     const mentor = [
@@ -49,9 +51,15 @@ const Home = (props) => {
             <section id='whatwedo'>
                 <WhatWeDo wwd={wwd}/>
             </section>
+            <section id='pricing'>
+                <Pricing/>
+            </section>
             {/* <section id='services'>
                 <TextImageComponent {...homeObjTwo}/>
             </section> */}
+            <section id='roadmap'>
+                <RoadMap/>
+            </section>
         </div>
     )
 }

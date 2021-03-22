@@ -37,7 +37,7 @@ function TextImageComponent({
                 <p
                   className={
                     light
-                      ? 'home__hero_subtitle dark'
+                      ? 'home__hero_subtitle black'
                       : 'home__hero_subtitle'
                   }
                 >

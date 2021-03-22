@@ -59,6 +59,7 @@
     .child {
       width: 100%;
       flex-basis: 100%;
+      text-align: center;
     }
   }
   .btn{

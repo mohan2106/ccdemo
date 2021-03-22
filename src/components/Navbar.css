@@ -31,6 +31,7 @@
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
+    letter-spacing: 2px;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -71,10 +72,11 @@
   }
   
   .fa-bars {
-    color: #fff;
+    color: #6B25D0;
   }
   
   .menu-icon {
+    color: #6B25D0;
     display: none;
   }
   
@@ -104,6 +106,7 @@
     }
   
     .nav-links {
+      color: #000;
       text-align: center;
       padding: 2rem;
       width: 100%;
@@ -142,7 +145,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: #6B25D0;
       font-size: 2rem;
     }
   
