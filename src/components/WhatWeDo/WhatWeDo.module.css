@@ -55,13 +55,7 @@
      align-items: center;
    }
 
-   @media screen and (max-width: 768px) {
-    .child {
-      width: 100%;
-      flex-basis: 100%;
-      text-align: center;
-    }
-  }
+   
   .btn{
     margin: auto;
     align-items: center;
@@ -70,4 +64,16 @@
   }
   .childbtn{
     margin: auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    .child {
+      width: 100%;
+      flex-basis: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+    .btn{
+      padding: 40px;
+    }
   }

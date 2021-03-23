@@ -5,6 +5,8 @@ import Alumni from '../MentorComp/Mentor';
 import WhatWeDo from '../WhatWeDo/WhatWeDo';
 import Pricing from '../PricingPage/Pricing';
 import RoadMap from '../RoadMap/RoadMap';
+import FAQs from '../FAQs/FAQs';
+import BookTrial from '../BookTrial/BookTrial.js'
 
 const Home = (props) => {
     const mentor = [
@@ -40,6 +42,29 @@ const Home = (props) => {
         },
         
     ];
+
+    const faqs = [
+        {
+            ques:'What is Coding Cable?',
+            answer:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore cupiditate, quasi ex eum nihil rerum exercitationem nesciunt odio placeat veniam doloremque voluptatibus eveniet animi iusto voluptas illo velit, at eligendi?'
+        },
+        {
+            ques:'What is Coding Cable?',
+            answer:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore cupiditate, quasi ex eum nihil rerum exercitationem nesciunt odio placeat veniam doloremque voluptatibus eveniet animi iusto voluptas illo velit, at eligendi?'
+        },
+        {
+            ques:'What is Coding Cable?',
+            answer:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore cupiditate, quasi ex eum nihil rerum exercitationem nesciunt odio placeat veniam doloremque voluptatibus eveniet animi iusto voluptas illo velit, at eligendi?'
+        },
+        {
+            ques:'What is Coding Cable?',
+            answer:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore cupiditate, quasi ex eum nihil rerum exercitationem nesciunt odio placeat veniam doloremque voluptatibus eveniet animi iusto voluptas illo velit, at eligendi?'
+        },
+        {
+            ques:'What is Coding Cable?',
+            answer:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore cupiditate, quasi ex eum nihil rerum exercitationem nesciunt odio placeat veniam doloremque voluptatibus eveniet animi iusto voluptas illo velit, at eligendi?'
+        }
+    ]
     return (
         <div>
             <section id='home'>
@@ -54,11 +79,14 @@ const Home = (props) => {
             <section id='pricing'>
                 <Pricing/>
             </section>
-            {/* <section id='services'>
-                <TextImageComponent {...homeObjTwo}/>
-            </section> */}
             <section id='roadmap'>
                 <RoadMap/>
+            </section>
+            <section id="faq">
+                <FAQs faqs={faqs}/>
+            </section>
+            <section id="booktrial">
+                <BookTrial/>
             </section>
         </div>
     )

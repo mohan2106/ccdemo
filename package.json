@@ -1,5 +1,5 @@
 {
-  "homepage": "http://mohan2106.github.io/ccdemo",
+  "homepage": "https://mohan2106.github.io/ccdemo/.",
   "name": "ccdemo",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.1",
+    "react-animated-css": "^1.2.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",

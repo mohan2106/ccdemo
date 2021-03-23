@@ -45,7 +45,7 @@
 }
 .roadmap ul li:nth-child(even){
     float: right;
-    text-align: left;
+    text-align: left ;
     clear: both;
 }
 
@@ -53,6 +53,7 @@
     background: #F5EBFD;
     border-radius: 16px;
     padding: 32px 24px;
+    transition: all 0.2s ease-out;
 }
 .content1 h3{
     color:#8D22E5;
@@ -67,6 +68,7 @@
     background: #E7F9E5;
     border-radius: 16px;
     padding: 32px 24px;
+    transition: all 0.2s ease-out;
 }
 .content2 h3{
     color:#40CC33;
@@ -80,6 +82,16 @@
     background: #FFECF0;
     border-radius: 16px;
     padding: 32px 24px;
+    transition: all 0.2s ease-out;
+}
+.content1:hover{
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+}
+.content2:hover{
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+}
+.content3:hover{
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
 }
 .content3 h3{
     color:#FF436F;

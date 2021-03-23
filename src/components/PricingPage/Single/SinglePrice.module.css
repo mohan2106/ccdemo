@@ -61,3 +61,7 @@
     color: #eaeafa;
     transition: all 0.3s ease-out;
 }
+
+.container:hover{
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+}
