@@ -56,20 +56,23 @@
     .head_item {
       width: 100%;
       flex-basis: 100%;
-      text-align: center;
+      text-align: center; 
     }
     .pricing{
         background:#3B38F1;
         border-radius: 0;
-        padding: 40px;
+        padding: 4px;
+        padding-bottom: 32px;
         margin: auto;
         width: 100%;
     }
     .items{
         width: 100%;
+        margin-top: 0px;
     }
     .title{
         font-size: 36px;
+        margin-top: 40px;
     }
   }
 

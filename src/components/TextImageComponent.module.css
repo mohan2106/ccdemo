@@ -129,4 +129,8 @@ img {
     max-width: 100%;
     flex-basis: 100%;
   }
+
+  .home__hero_img{
+    margin-top: -60px;
+  }
 }
