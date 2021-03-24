@@ -37,15 +37,18 @@
 .accordion h5{
     flex: 1;
     color: #3D3D5B;
-    font-size: 20px;
+    font-family: apercu;
+    font-weight: 700;
+    font-size: 24px;
 }
 .panel{
     padding:  0 15px;
     border-left: 1px solid rgb(212, 211, 211);
     margin-left: 25px;
+    font-family: apercu;
+    font-weight: 300;
     font-size: 16px;
     line-height: 25px;
-    letter-spacing: 2px;
     text-align: justify;
     overflow: hidden;
     max-height: 200px;

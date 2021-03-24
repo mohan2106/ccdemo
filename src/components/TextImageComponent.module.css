@@ -1,3 +1,13 @@
+.container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 .home__hero_section {
   color: #fff;
   padding: 0;
@@ -14,12 +24,14 @@
   margin-left: -15px;
   flex-wrap: wrap;
   align-content: stretch;
+  justify-content: center;
 }
 
 .col {
   margin-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
+  align-content: center;
   flex: 1;
   max-width: 50%;
   flex-basis: 50%;
@@ -29,13 +41,15 @@
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+  margin: auto;
 }
 
 .top_line {
   color: #f00946;
+  font-family: spacegrotesk;
+  font-weight: 500;
   font-size: 16px;
   line-height: 16px;
-  font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -43,9 +57,10 @@
 
 .heading {
   margin-bottom: 24px;
+  font-family: spacegrotesk;
+  font-weight: 500;
   font-size: 48px;
   line-height: 1.1;
-  font-weight: 600;
   color: #f7f8fa;
 }
 
@@ -77,6 +92,10 @@
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
+}
+p{
+  font-family: apercu;
+  font-weight: 500;
 }
 
 img {

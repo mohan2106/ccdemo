@@ -17,8 +17,10 @@
 }
 .headline{
     text-align: center;
-    color: #6B25D0;
-    font-weight: 600;
+    color: #3B38F1;
+    font-family: apercu;
+    font-weight: 500;
+    font-size:28px;
     margin: 20px 0;
     text-transform: uppercase;
 }
@@ -41,5 +43,7 @@
 .alumni-text{
     width: 100%;
     text-align: center;
-    font-size: medium;
+    font-size: 16px;
+    font-family: apercu;
+    font-weight: 500;
 }

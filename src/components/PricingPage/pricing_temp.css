@@ -11,6 +11,8 @@
 	cursor: pointer;
 	transition: .3s ease all;
     border: 1px solid white;
+    font-family: apercu;
+    font-weight: 700;
     border-radius: 8px;
 }
 .switch_button_case{
@@ -23,9 +25,10 @@
     border: none;
     transition: .3s ease all;
     text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 5px;
-    padding-bottom: 1px;
+    font-family: apercu;
+    font-weight: 700;
+    letter-spacing: 4px;
+    /* padding-bottom: 1px; */
 }
 .switch_button_case:hover{
     color: grey;

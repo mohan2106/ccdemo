@@ -14,7 +14,7 @@ import { MdFingerprint } from 'react-icons/md';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join our exclusive membership to receive the latest news and trends
         </p>
@@ -32,7 +32,7 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
@@ -52,19 +52,19 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
+          {/* <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
-          </div>
+          </div> */}
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+            <Link to='https://www.instagram.com/codingcable'>Instagram</Link>
+            <Link to='https://www.facebook.com/CodingCable-100239938797987'>Facebook</Link>
             <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='https://twitter.com/CableCoding'>Twitter</Link>
           </div>
         </div>
       </div>

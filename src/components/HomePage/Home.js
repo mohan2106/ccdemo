@@ -76,7 +76,7 @@ const Home = (props) => {
             <section id='whatwedo'>
                 <WhatWeDo wwd={wwd}/>
             </section>
-            <section id='pricing'>
+            <section id='courses'>
                 <Pricing/>
             </section>
             <section id='roadmap'>

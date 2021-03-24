@@ -13,7 +13,7 @@
     left: 50%;
     width: 2px;
     height: 100%;
-    background:#8D22E5;
+    background:#3B38F1;
 }
 .finish{
     text-align: center;
@@ -57,11 +57,15 @@
 }
 .content1 h3{
     color:#8D22E5;
-    font-style: normal;
+    font-family: apercu;
     font-weight: 500;
     font-size: 28px;
     padding: 0 0 16px 0;
 
+}
+.content1 p{
+    font-family: apercu;
+    font-weight: 500;
 }
 
 .content2{
@@ -72,7 +76,7 @@
 }
 .content2 h3{
     color:#40CC33;
-    font-style: normal;
+    font-family: apercu;
     font-weight: 500;
     font-size: 28px;
     padding: 0 0 16px 0;
@@ -95,16 +99,28 @@
 }
 .content3 h3{
     color:#FF436F;
-    font-style: normal;
+    font-family: apercu;
     font-weight: 500;
     font-size: 28px;
     padding: 0 0 16px 0;
 }
+.content2 p{
+    font-family: apercu;
+    font-weight: 500;
+}
+
+.content3 p{
+    font-family: apercu;
+    font-weight: 500;
+}
+
 
 .title{
     margin: 80px auto -20px auto;
     text-align: center;
-    color: #8D22E5;
+    color: #3B38F1;
+    font-family: apercu;
+    font-weight: 700;
 }
 .roadmap ul li:nth-child(odd):before{
     content: '';
@@ -112,7 +128,7 @@
     width: 20px;
     height: 20px;
     right: -50px;
-    background: #8D22E5;
+    background: #3B38F1;
     border-radius: 50%;
 }
 .roadmap ul li:nth-child(even):before{
@@ -121,7 +137,7 @@
     width: 20px;
     height: 20px;
     left: -50px;
-    background: #8D22E5;
+    background: #3B38F1;
     border-radius: 50%;
 }
 p{
@@ -253,8 +269,6 @@ p{
         height: width;
         right: 48%;
         top: -20px;
-        background: #8D22E5;
-        border-radius: 50%;
     }
     .roadmap ul li:nth-child(even):before{
         content: '';
@@ -263,8 +277,6 @@ p{
         height: width;
         left: 48%;
         top: -20px;
-        background: #8D22E5;
-        border-radius: 50%;
     }
     .floating1{
         display: none;

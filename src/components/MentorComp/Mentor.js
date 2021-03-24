@@ -17,7 +17,7 @@ function Mentor(props) {
   return (
     <>
       <div className='container'>
-          <h3 class='headline'>Learn best from mentor of</h3>
+          <h3 class='headline'>Learn best from the mentor of</h3>
           <div className='flex-container'
           style={{
             display: 'flex',

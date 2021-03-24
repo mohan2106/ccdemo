@@ -33,7 +33,7 @@ function Navbar() {
                     <Link to='/' className={classes.navbar_logo} onClick={closeMobileMenu}>
                         {/* <MdFingerprint className='navbar-icon'/> */}
                         <img src={process.env.PUBLIC_URL + '/Images/logo.svg'} className={classes.navbar_icon} alt="logo" />
-                        CODINGCABLE
+                        CODINGCABLE.COM
                     </Link>
                     <div className={classes.menu_icon} onClick={handleClick}>
                     {click ? <FaTimes/> : <FaBars/>}
@@ -45,7 +45,7 @@ function Navbar() {
                             </Link1>
                         </li>
                         <li className={classes.nav_item}>
-                            <Link1 to='services' onClick={closeMobileMenu} className={classes.nav_links} smooth={true} duration={1000}>
+                            <Link1 to='courses' onClick={closeMobileMenu} className={classes.nav_links} smooth={true} duration={1000}>
                                 Courses
                             </Link1>
                         </li>

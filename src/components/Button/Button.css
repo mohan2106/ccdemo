@@ -3,34 +3,38 @@
 }
 
 .btn {
-    padding : 8px 20px;
-    height: 56px;
+    padding : 8px 40px;
+    height: 52px;
     outline: none;
     border: none;
     cursor: pointer;
     white-space: nowrap;
+    font-family: apercu;
+    font-weight: 500;
 }
 
 .btn--primary {
+    height: 52px;
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
 }
 .btn--outline {
+    height: 52px;
     background-color: transparent;
     color: #6B25D0;
-    padding: 8px 20px;
+    padding: 8px 40px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
 }
 
 .btn--medium {
-    padding: 8px 20px;
+    padding: 8px 40px;
     font-size: 20px;
 }
 
 .btn--large{
-    padding: 12px 26px;
+    padding: 12px 52px;
     font-size: 20px;
 }
 
@@ -44,7 +48,7 @@
     color: #6B25D0;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
-    padding: 8px 32px;
+    padding: 8px 52px;
     border-radius: 32px;
 }
 .btn--mobile{
@@ -65,9 +69,10 @@
     background: linear-gradient(90.0deg, #9850FF 0.61%, #3B38F1 93.64%);
     color: #fff;
     /* border: 1px solid var(--primary); */
+    height: 52px;
     transition: all 0.3s ease-out;
-    padding: 8px 32px;
-    border-radius: 645px;
+    padding: 12px 52px;
+    border-radius: 27px;
     font-size: large;
 }
 .btn--rounded-dark:hover{
