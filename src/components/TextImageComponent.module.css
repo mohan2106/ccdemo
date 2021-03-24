@@ -78,7 +78,7 @@
 .home__hero_subtitle {
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 24px;
 }
 
@@ -115,6 +115,14 @@ img {
 @media screen and (max-width: 768px) {
   .home__hero_text_wrapper {
     padding-bottom: 65px;
+  }
+  .heading{
+    text-align: center;
+    font-size: 42px;
+  }
+  .home__hero_subtitle{
+    text-align: center;
+    margin: 20px auto;
   }
 
   .col {

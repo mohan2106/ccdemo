@@ -40,6 +40,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .container{
+    width: 100%;
+  }
+  .whatwedo{
+    font-size: 36px;
+  }
   .child {
     width: 100%;
     flex-basis: 100%;

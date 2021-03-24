@@ -19,16 +19,20 @@
   }
   
   .footer-subscription > p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    font-family: apercu;
+    font-weight: 500;
   }
   
   .footer-subscription-heading {
     margin-bottom: 24px;
+    font-family: apercu;
+    font-weight: 500;
     font-size: 24px;
   }
   
   .footer-subscription-text {
+    font-family: apercu;
+    font-weight: 500;
     margin-bottom: 24px;
     font-size: 20px;
   }
@@ -66,14 +70,20 @@
   }
   
   .footer-link-items h2 {
+    font-family: apercu;
+    font-weight: 500;
     margin-bottom: 16px;
   }
   
   .footer-link-items > h2 {
+    font-family: apercu;
+    font-weight: 500;
     color: #fff;
   }
   
   .footer-link-items a {
+    font-family: apercu;
+    font-weight: 500;
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
@@ -85,10 +95,14 @@
   }
   
   .footer-email-form h2 {
+    font-family: apercu;
+    font-weight: 500;
     margin-bottom: 2rem;
   }
   
   .footer-input::placeholder {
+    font-family: apercu;
+    font-weight:500;
     color: #b1b1b1;
   }
   
@@ -125,6 +139,8 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
+    font-family: spacegrotesk;
+    font-weight: 900;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -132,6 +148,8 @@
   }
   
   .website-rights {
+    font-family: apercu;
+    font-weight: 500;
     color: #fff;
     margin-bottom: 16px;
   }
