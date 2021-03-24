@@ -155,7 +155,7 @@
         left: 0;
         right: 0;
         text-align: center;
-        top: -100px;
+        top: -160px;
 
     }
     .item1 h2{
@@ -175,9 +175,13 @@
         height: 54px;
         border: none;
         margin: 10px 0;
+        padding: 40px;
         color: #3B38F1;
         padding: 10px;
         font-size: 20px;
+    }
+    .form{
+        margin-right: 0;
     }
 }
 
